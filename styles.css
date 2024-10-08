@@ -103,14 +103,15 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #006e99;
 }
 
 .new-user-language a {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .new-user-language select {
-    padding: 10px;
+    padding: 15px;
 }
 
 .background img {
