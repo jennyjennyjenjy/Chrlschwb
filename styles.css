@@ -37,7 +37,7 @@ header {
     width: 100%;
     max-width: 1200px;
     height: 65%;
-    margin-top: 3px; /* To adjust for header */
+    margin-top: none; /* To adjust for header */
 }
 
 .login-box {
