@@ -1,6 +1,6 @@
-w* {
-    margin: 100;
-    padding: 100;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
@@ -83,8 +83,24 @@ button:hover {
 
 .login-links {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center; /* Center the links */
     margin-top: 10px;
+}
+
+.login-links a {
+    text-decoration: none;
+    color: #0071bb;
+    margin-bottom: 10px;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
+.language-selection {
+    text-align: center; /* Center the language selection */
+    margin-top: 20px;
 }
 
 .background img {
