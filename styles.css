@@ -101,17 +101,17 @@ button:hover {
 /* New styles for the New User and Language section */
 .new-user-language {
     display: flex;
+    color: #006e99;
     justify-content: center;
     align-items: center;
-    color: #006e99;
 }
 
 .new-user-language a {
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .new-user-language select {
-    padding: 15px;
+    padding: 10px;
 }
 
 .background img {
